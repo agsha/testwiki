@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-05-03T06:30:23.577Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="MTpu2gfIqVMBznxuGXcp" version="24.2.5" type="device">
+  <diagram name="Page-1" id="NoGkeWFWJSq9DJ2qIiPK">
+    <mxGraphModel dx="1036" dy="1721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0skqSpfZAEdm4hVKEefC-1" value="signumApp&lt;div&gt;HTTP server&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0skqSpfZAEdm4hVKEefC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="140" as="sourcePoint" />
+            <mxPoint x="150" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-3" value="client hits rest API&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="93" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-4" target="0skqSpfZAEdm4hVKEefC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-4" value="single pubsub for all topics&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="530" y="51.5" width="60" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-1" target="0skqSpfZAEdm4hVKEefC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-6" target="0skqSpfZAEdm4hVKEefC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-6" target="0skqSpfZAEdm4hVKEefC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-6" target="0skqSpfZAEdm4hVKEefC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-6" value="dataflow job&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="830" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-9" value="GCS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="-140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-11" value="BigQuery" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-13" value="There are 2 subscriptions here. one for GCS and one for BigQuery&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="43" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-15" value="single pubsub for all topics&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="-44" width="60" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-6" target="0skqSpfZAEdm4hVKEefC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-18" value="in the validation code, there is a check to&amp;nbsp;&lt;div&gt;send to realtime pipeline&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-57" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-19" target="0skqSpfZAEdm4hVKEefC-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-19" value="GCS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="900" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-21" value="entity&amp;nbsp;&lt;div&gt;GCS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="13" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0skqSpfZAEdm4hVKEefC-24" target="0skqSpfZAEdm4hVKEefC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-24" value="new pipeline&amp;nbsp;&lt;div&gt;similar to&amp;nbsp;&lt;/div&gt;&lt;div&gt;relationDB pipeline&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-27" value="long running&lt;div&gt;kube job&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="473" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-29" value="GoogleCloudStorageEntityIngestoin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="408" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0skqSpfZAEdm4hVKEefC-30" value="SignumIngest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="58" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
