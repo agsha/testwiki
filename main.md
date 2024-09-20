@@ -2,4 +2,4 @@
 
 With some contents
 
-![what the f][signum.drawio.svg]
+![what the f](signum.drawio.svg)
